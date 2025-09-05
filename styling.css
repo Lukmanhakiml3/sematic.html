@@ -1,0 +1,80 @@
+ul.copyright {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #1695ae;
+    margin-top: 80px;
+}
+.ending {
+    box-sizing: border-box;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    color: #cf1757;
+    background-color: #81cdff;
+    padding: 50px;
+    border: #c22222 8px solid;
+}
+
+.social-media {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 480px;
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skill-unggulan {
+    text-align: left;
+    list-style-type: none;
+}
+
+#mamcat {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: #ccc 0px 0px 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
+   

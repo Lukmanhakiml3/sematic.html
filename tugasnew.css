@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5faff; 
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #0056b3; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+nav ul {
+  color: white;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  min-height: 700px;
+}
+section {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.box {
+  background-color: #e6f0ff; /* biru muda */
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 175px;
+  border-left: 5px solid #0056b3; /* aksen biru tua */
+}
+
+/* Aside */
+aside {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.aside-box {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #e6f0ff; 
+  border-left: 5px solid #ffd700; 
+  height: 70px;
+}
+
+/* Footer */
+footer {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 5px solid #ffd700; 
+  border-radius: 10px 10px 0 0;
+}
